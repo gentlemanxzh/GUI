@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="gui_backgroundColor" format="color" />
+    <attr name="gui_backgroundStartColor" format="color" />
+    <attr name="gui_backgroundEndColor" format="color" />
+    <attr name="gui_borderColor" format="color" />
+    <attr name="gui_borderWidth" format="dimension" />
+
+    <!-- 圆角是否要自适应为 View 高度的一半 -->
+    <attr name="gui_isRadiusAdjustBounds" format="boolean" />
+    <!-- 同时指定四个方向的圆角大小 -->
+    <attr name="gui_radius" format="dimension" />
+    <!-- 指定左上方圆角的大小 -->
+    <attr name="gui_radiusTopLeft" format="dimension" />
+    <!-- 指定右上方圆角的大小 -->
+    <attr name="gui_radiusTopRight" format="dimension" />
+    <!-- 指定左下方圆角的大小 -->
+    <attr name="gui_radiusBottomLeft" format="dimension" />
+    <!-- 指定右下方圆角的大小 -->
+    <attr name="gui_radiusBottomRight" format="dimension" />
+    <!-- 指定渐变颜色的方向-->
+    <attr name="gui_gradient_orientation">
+        <enum name="top_bottom" value="0" />
+        <enum name="tr_bl" value="1" />
+        <enum name="right_left" value="2" />
+        <enum name="br_tl" value="3" />
+        <enum name="bottom_top" value="4" />
+        <enum name="bl_tr" value="5" />
+        <enum name="left_right" value="6" />
+        <enum name="tl_br" value="7" />
+    </attr>
+
+    <declare-styleable name="GUIRoundButton">
+        <attr name="gui_backgroundColor" />
+        <attr name="gui_backgroundStartColor" />
+        <attr name="gui_backgroundEndColor" />
+        <attr name="gui_gradient_orientation" />
+        <attr name="gui_borderColor" />
+        <attr name="gui_borderWidth" />
+        <attr name="gui_isRadiusAdjustBounds" />
+        <attr name="gui_radius" />
+        <attr name="gui_radiusTopLeft" />
+        <attr name="gui_radiusTopRight" />
+        <attr name="gui_radiusBottomLeft" />
+        <attr name="gui_radiusBottomRight" />
+    </declare-styleable>
+
+
+</resources>
